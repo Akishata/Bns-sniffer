@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{80504346-fa7f-452b-bc9c-82b81457886b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{f3f02722-bbd7-4b9c-80aa-030f5f72e279}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vars">
+      <UniqueIdentifier>{74b39f23-fd8c-4b54-a7fe-d6d7d5d9c9a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hook">
+      <UniqueIdentifier>{ad460777-fbda-4d38-98a6-76ad8e1be012}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hook\lib">
+      <UniqueIdentifier>{1d576df5-bd44-4aae-a813-13531bdad06c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="vars.h">
+      <Filter>vars</Filter>
+    </ClInclude>
+    <ClInclude Include="detours.h">
+      <Filter>hook\lib</Filter>
+    </ClInclude>
+    <ClInclude Include="hook.h">
+      <Filter>hook</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="hook.cpp">
+      <Filter>hook</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
